@@ -1,0 +1,4 @@
+mkdocs>=1.6
+mkdocs-material>=9.7
+mkdocs-jupyter>=0.25
+nbconvert>=7.16

@@ -1,0 +1,49 @@
+.nb-launch-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0 0 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+
+.nb-launch-bar .nb-launch-label {
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.nb-launch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.2;
+  border: 1px solid transparent;
+  transition: filter 0.15s ease;
+}
+
+.nb-launch-btn:hover {
+  filter: brightness(1.08);
+}
+
+.nb-launch-btn--colab {
+  background: #f9ab00;
+  color: #202124;
+}
+
+.nb-launch-btn--download {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.nb-launch-btn--github {
+  background: #24292f;
+  color: #ffffff;
+}

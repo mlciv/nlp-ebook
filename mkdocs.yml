@@ -1,0 +1,103 @@
+site_name: NLP — A Hands-On, Notebook-Based Introduction
+site_description: An open, interactive, notebook-based NLP textbook (University of Oklahoma)
+site_author: Jie Cao
+site_url: https://mlciv.github.io/nlp-ebook
+repo_url: https://github.com/mlciv/nlp-ebook
+repo_name: mlciv/nlp-ebook
+copyright: >
+  Copyright &copy; 2025 Jie Cao —
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: true
+      execute: false
+      allow_errors: true
+      ignore_h1_titles: true
+      show_input: true
+      theme: light
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/notebook-badges.css
+
+extra_javascript:
+  - assets/notebook-badges.js
+
+nav:
+  - Home: index.md
+  - The Book:
+    - Preface: ebook/preface.md
+    - Table of Contents: notebooks/index.md
+    - Roadmap: ebook/roadmap.md
+    - License: ebook/license.md
+  - Chapters:
+    - Part I — Foundations:
+      - Overview: notebooks/part1.md
+      - 1 · Tokenization & Vocabulary: notebooks/hw1/Assignment_1.ipynb
+      - 1 · Setup Tutorial: notebooks/hw1/setup_tutorial.ipynb
+      - 1 · AI Usage Example: notebooks/hw1/check_word.ipynb
+      - 2 · Text Classification: notebooks/hw2/Assignment_2.ipynb
+    - Part II — Representations & Sequences:
+      - Overview: notebooks/part2.md
+      - 3 · Embeddings & Sequence Models: notebooks/hw3/Assignment_3.ipynb
+    - Part III — Transformers & LLMs:
+      - Overview: notebooks/part3.md
+      - 4 · Transformers & LLMs: notebooks/hw4/Assignment_4.ipynb
+      - 4 · Transformer Illustrated: notebooks/hw4/Transformer_Illustration.ipynb
+      - 5 · Fine-Tuning with LoRA/QLoRA: notebooks/hw5/Part1-sft_trl_lora_qlora.ipynb
+      - 5 · Agentic NLP: notebooks/hw5/Part2-Exam_Agent_For_NLP.ipynb
+  - Course:
+    - Syllabus: syllabus.md
+    - Schedule: schedule.md
+    - Assignments: assignments.md
+    - Final Project: project.md
+    - Resources: resources.md
