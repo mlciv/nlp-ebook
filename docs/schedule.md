@@ -26,21 +26,21 @@
 | | Thu Feb 26 | Lec 12 | Neural Networks for NLP | Ch. 7 | **HW2 due** (Feb 26) |
 | **7** | Tue Mar 3 | Lec 13 | Recurrent Neural Networks & LSTMs | Ch. 9 | **HW3** released |
 | | Thu Mar 5 | Lec 14 | Machine Translation: Seq2Seq & Attention | Ch. 10, 13 | |
-| **8** | Tue Mar 10 | Lec 15 | Attention & the Transformer | Ch. 9–10 | |
-| | Thu Mar 12 | Lec 17 | Transformer Recap | Ch. 9 | |
+| **8** | Tue Mar 10 | Lec 15 | Attention | Ch. 9–10 | |
+| | Thu Mar 12 | Lec 16 | The Transformer | Ch. 9 | |
 | **9** | Tue Mar 17 | — | *Spring Break — no class* | | |
 | | Thu Mar 19 | — | *Spring Break — no class* | | |
-| **10** | Tue Mar 24 | Lec 18 | Pretrained Transformers (BERT, MLM) | Ch. 11 | **HW3 due** (Mar 24) |
-| | Thu Mar 26 | Lec 19 | T5 & Encoder–Decoder LLMs | Ch. 11–12 | **Project Milestone 2: Progress report & mid-term demo** |
-| **11** | Tue Mar 31 | Lec 20 | LLMs & In-Context Learning | Ch. 12 | **HW4** released |
-| | Thu Apr 2 | Lec 22 | Prompt-Based Tuning & PEFT (LoRA/QLoRA) | Ch. 12 | |
-| **12** | Tue Apr 7 | Lec 23 | Post-Training Overview | notes | |
-| | Thu Apr 9 | Lec 24 | Post-Training: Supervised Fine-Tuning (SFT) | notes | **HW4 due** (Apr 9) |
-| **13** | Tue Apr 14 | Lec 25 | Post-Training: Reinforcement Learning (RLHF) | notes | **HW5** released |
-| | Thu Apr 16 | Lec 26 | Test-Time Inference & Reasoning | notes | |
-| **14** | Tue Apr 21 | Lec 27 | Agentic AI & Applications | notes | |
-| | Thu Apr 23 | — | Agentic AI (cont.) & Post-Training for Agents | notes | **HW5 due** (Apr 23) |
-| **15** | Tue Apr 28 | — | Beyond Transformers: State-Space & Diffusion LLMs | notes | |
+| **10** | Tue Mar 24 | Lec 17 | Transformer Recap | Ch. 9 | **HW3 due** (Mar 24) |
+| | Thu Mar 26 | Lec 18 | Pretrained Transformers (BERT, MLM) | Ch. 11 | **Project Milestone 2: Progress report & mid-term demo** |
+| **11** | Tue Mar 31 | Lec 19 | T5 & Encoder–Decoder LLMs | Ch. 11–12 | **HW4** released |
+| | Thu Apr 2 | Lec 20 | LLMs & In-Context Learning | Ch. 12 | |
+| **12** | Tue Apr 7 | Lec 21 | In-Context Learning & Prompting (cont.) | Ch. 12 | |
+| | Thu Apr 9 | Lec 22 | Prompt-Based Tuning & PEFT (LoRA/QLoRA) | Ch. 12 | **HW4 due** (Apr 9) |
+| **13** | Tue Apr 14 | Lec 23 | Post-Training Overview | notes | **HW5** released |
+| | Thu Apr 16 | Lec 24 | Post-Training: Supervised Fine-Tuning (SFT) | notes | |
+| **14** | Tue Apr 21 | Lec 25 | Post-Training: Reinforcement Learning (RLHF) | notes | |
+| | Thu Apr 23 | Lec 26 | Test-Time Inference & Reasoning | notes | **HW5 due** (Apr 23) |
+| **15** | Tue Apr 28 | Lec 27 | Agentic AI & Applications | notes | |
 | | Thu Apr 30 | — | Final Project Presentations I | | **Project Milestone 3: Final report due** |
 | **16** | Tue May 5 | — | Final Project Presentations II | | |
 | | Thu May 7 | — | *No class* | | |
