@@ -33,17 +33,23 @@
   filter: brightness(1.08);
 }
 
-.nb-launch-btn--colab {
+/* Scope to `.md-typeset a` so these win over the theme's link color in both
+   light and dark schemes (otherwise the dark-mode link color washes out the
+   button text). */
+.md-typeset a.nb-launch-btn--colab,
+.md-typeset a.nb-launch-btn--colab:hover {
   background: #f9ab00;
   color: #202124;
 }
 
-.nb-launch-btn--download {
-  background: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
+.md-typeset a.nb-launch-btn--download,
+.md-typeset a.nb-launch-btn--download:hover {
+  background: #3d4468;
+  color: #ffffff;
 }
 
-.nb-launch-btn--github {
+.md-typeset a.nb-launch-btn--github,
+.md-typeset a.nb-launch-btn--github:hover {
   background: #24292f;
   color: #ffffff;
 }

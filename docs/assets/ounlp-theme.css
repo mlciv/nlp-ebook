@@ -1,0 +1,77 @@
+/* OUNLP brand theme for Material for MkDocs.
+   Palette mirrors ounlp.org:
+     light  primary #3D4468 · accent/gold #C9A46A · bg #ffffff · bg-alt #f5f7fa
+     dark   primary #8b93c4 · accent/gold #d8b87f · bg #0f1218 · bg-alt #161b23
+   Material is driven by `palette: scheme: default|slate`; we remap its CSS
+   variables under those scheme selectors instead of hard-coding colors. */
+
+/* ---------- Light scheme ---------- */
+[data-md-color-scheme="default"] {
+  --ou-navy: #3D4468;
+  --ou-navy-dark: #2f3454;
+  --ou-gold: #C9A46A;
+  --ou-bg-alt: #f5f7fa;
+
+  --md-primary-fg-color: var(--ou-navy);
+  --md-primary-fg-color--light: #565d86;
+  --md-primary-fg-color--dark: var(--ou-navy-dark);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  --md-accent-fg-color: var(--ou-gold);
+  --md-accent-fg-color--transparent: rgba(201, 164, 106, 0.1);
+
+  /* Links pick up the navy, hover to gold (set globally below). */
+  --md-typeset-a-color: var(--ou-navy);
+}
+
+/* ---------- Dark (slate) scheme ---------- */
+[data-md-color-scheme="slate"] {
+  --ou-navy: #8b93c4;
+  --ou-gold: #d8b87f;
+
+  --md-hue: 222;
+  --md-default-bg-color: #0f1218;
+  --md-default-bg-color--light: #161b23;
+
+  --md-primary-fg-color: #1b2030;
+  --md-primary-fg-color--light: #2a3050;
+  --md-primary-fg-color--dark: #11151f;
+  --md-primary-bg-color: #f3f5f8;
+
+  --md-accent-fg-color: var(--ou-gold);
+  --md-accent-fg-color--transparent: rgba(216, 184, 127, 0.12);
+
+  --md-typeset-a-color: var(--ou-navy);
+}
+
+/* Link hover → brand gold, consistent across schemes. */
+.md-typeset a:hover,
+.md-typeset a:focus {
+  color: var(--ou-gold);
+}
+
+/* Header logo sizing. */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.6rem;
+  width: auto;
+}
+
+/* Primary buttons (e.g. "Start reading") use the navy + a gold hover. */
+.md-typeset .md-button--primary {
+  background-color: var(--ou-navy);
+  border-color: var(--ou-navy);
+  color: #ffffff;
+}
+.md-typeset .md-button--primary:hover,
+.md-typeset .md-button--primary:focus {
+  background-color: var(--ou-gold);
+  border-color: var(--ou-gold);
+  color: #1a1d24;
+}
+
+/* Tab bar / active tab accent. */
+.md-tabs {
+  background-color: var(--md-primary-fg-color--dark);
+}

@@ -2,7 +2,7 @@
 
 This book is **actively growing**. The five chapters below have been class-tested as
 course assignments; additional chapters are planned as the open textbook is expanded
-under the Alternative Textbook Grant.
+under the OU Alternative Textbook Grant 2025–2026.
 
 ## Available now
 

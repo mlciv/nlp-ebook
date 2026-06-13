@@ -47,9 +47,8 @@ The first chapter includes a setup tutorial to get your environment ready.
 
 ## A note on the grant
 
-This resource was developed with support from an **OU Alternative Textbook Grant
-(2024–25)**.
-<!-- TODO: replace with the exact grant program name and year/number. -->
+This resource was developed with support from the **OU Alternative Textbook Grant
+2025–2026**.
 The Alternative Textbook Grant program supports faculty in replacing commercial
 textbooks with free, openly licensed materials to reduce costs for students. Adopting
 this book in place of a commercial NLP textbook is exactly the kind of reuse the grant

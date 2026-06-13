@@ -11,7 +11,7 @@ browser.
 [Read the Preface](ebook/preface.md){ .md-button }
 
 !!! quote "Open & free"
-    This book was developed with support from an OU Alternative Textbook Grant and is
+    This book was developed with support from the OU Alternative Textbook Grant 2025–2026 and is
     released under a [CC BY-NC-SA 4.0](ebook/license.md) license — free to use, share,
     and adapt for non-commercial purposes.
 
@@ -36,9 +36,9 @@ browser.
 This book is the textbook for **CS-5293 Natural Language Processing** at the University
 of Oklahoma. Course logistics:
 
-- **Lectures:** Tue/Thu, 4:30 PM – 5:45 PM · **Location:** DEH 120
-- **Instructor:** Prof. Jie (Jessie) Cao · **Email:** jie.cao@ou.edu
-- **Discussion:** Canvas + Ed Discussion
+- **Lectures:** Tue/Thu, 1:30 PM – 2:45 PM · **Location:** Sarkeys Energy Center A0236
+- **Instructor:** Prof. Jie Cao · **Email:** jie.cao@ou.edu
+- **Discussion:** Canvas + Discord
 
 Course pages: [Syllabus](syllabus.md) · [Schedule](schedule.md) ·
 [Assignments](assignments.md) · [Final Project](project.md) · [Resources](resources.md)
