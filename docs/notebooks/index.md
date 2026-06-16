@@ -13,7 +13,7 @@ New to the book? Start with the [Preface](../ebook/preface.md).
     - **View on GitHub** — read the source.
     - **Download .ipynb** — run it locally in Jupyter or VS Code.
 
-## Language Model Foundations
+## I — Language Model Foundations
 
 | Ch | Chapter | Topics |
 |----|---------|--------|
@@ -21,26 +21,26 @@ New to the book? Start with the [Preface](../ebook/preface.md).
 | 1+ | [Setup Tutorial](hw1/setup_tutorial.ipynb) | Environment & Python package setup |
 | 1+ | [AI Usage Example](hw1/check_word.ipynb) | Responsible AI-assisted problem solving |
 
-## Machine Learning Foundation and NLP Tasks
+## II — Machine Learning Foundation and NLP Tasks
 
 | Ch | Chapter | Topics |
 |----|---------|--------|
 | 2 | [Text Classification](hw2/Assignment_2.ipynb) | Sentence classification, logistic regression |
 
-## Representations & Sequences
+## III — Representations & Sequences
 
 | Ch | Chapter | Topics |
 |----|---------|--------|
 | 3 | [Embeddings & Sequence Models](hw3/Assignment_3.ipynb) | Word embeddings, RNNs, token classification |
 
-## Transformers & LLMs
+## IV — Transformers & LLMs
 
 | Ch | Chapter | Topics |
 |----|---------|--------|
 | 4 | [Transformers & LLMs](hw4/Assignment_4.ipynb) | Attention, transformers, pretrained models |
 | 4+ | [Transformer Illustrated](hw4/Transformer_Illustration.ipynb) | Visual, step-by-step transformer walkthrough |
 
-## LLM Alignment and Agentic AI
+## V — LLM Alignment and Agentic AI
 
 | Ch | Chapter | Topics |
 |----|---------|--------|

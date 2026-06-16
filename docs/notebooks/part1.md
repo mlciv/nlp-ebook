@@ -1,4 +1,4 @@
-# Language Model Foundations
+# I — Language Model Foundations
 
 This part establishes the groundwork for everything that follows: how raw text becomes
 something a model can compute on, and the first statistical language models.

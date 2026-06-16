@@ -1,4 +1,4 @@
-# Representations & Sequences
+# III — Representations & Sequences
 
 This part moves from sparse, count-based features to **learned dense representations**,
 and introduces models that process text as **sequences**.
