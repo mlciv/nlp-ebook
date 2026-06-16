@@ -13,27 +13,37 @@ New to the book? Start with the [Preface](../ebook/preface.md).
     - **View on GitHub** — read the source.
     - **Download .ipynb** — run it locally in Jupyter or VS Code.
 
-## Part I — Foundations
+## Language Model Foundations
 
 | Ch | Chapter | Topics |
 |----|---------|--------|
 | 1 | [Tokenization & Vocabulary](hw1/Assignment_1.ipynb) | Subword segmentation, vocabulary design, OOV handling, n-grams |
 | 1+ | [Setup Tutorial](hw1/setup_tutorial.ipynb) | Environment & Python package setup |
 | 1+ | [AI Usage Example](hw1/check_word.ipynb) | Responsible AI-assisted problem solving |
+
+## Machine Learning Foundation and NLP Tasks
+
+| Ch | Chapter | Topics |
+|----|---------|--------|
 | 2 | [Text Classification](hw2/Assignment_2.ipynb) | Sentence classification, logistic regression |
 
-## Part II — Representations & Sequences
+## Representations & Sequences
 
 | Ch | Chapter | Topics |
 |----|---------|--------|
 | 3 | [Embeddings & Sequence Models](hw3/Assignment_3.ipynb) | Word embeddings, RNNs, token classification |
 
-## Part III — Transformers & LLMs
+## Transformers & LLMs
 
 | Ch | Chapter | Topics |
 |----|---------|--------|
 | 4 | [Transformers & LLMs](hw4/Assignment_4.ipynb) | Attention, transformers, pretrained models |
 | 4+ | [Transformer Illustrated](hw4/Transformer_Illustration.ipynb) | Visual, step-by-step transformer walkthrough |
+
+## LLMs and Agentic AI
+
+| Ch | Chapter | Topics |
+|----|---------|--------|
 | 5 | [Fine-Tuning with LoRA/QLoRA](hw5/Part1-sft_trl_lora_qlora.ipynb) | Supervised fine-tuning, parameter-efficient training (TRL) |
 | 5+ | [Agentic NLP](hw5/Part2-Exam_Agent_For_NLP.ipynb) | Building an LLM agent with LangGraph |
 
